@@ -1,0 +1,97 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutImage {
+    width: 35%;
+    transition: transform 1s ease, opacity 1s ease; /* Add smooth transitions for hover effect */
+}
+
+/* Hover effect for aboutImage */
+.aboutImage:hover {
+    transform: translateY(-20px); /* Slightly move the image up */
+    opacity: 0.8; /* Slightly reduce opacity */
+}
+
+.Items {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgb(10, 10, 10) 0%, rgb(79, 79, 72) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.Item:hover {
+    background-size: 100% 100%;
+}
+
+.Item h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Item p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    /* Keep the image visible on smaller screens */
+    .aboutImage {
+        display: block;
+        width: 70%; /* Adjust the width for smaller screens */
+        margin: 0 auto; /* Center the image */
+    }
+
+    .Items {
+        margin-top: 29px;
+    }
+
+    .Item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

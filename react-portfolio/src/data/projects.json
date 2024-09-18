@@ -1,0 +1,26 @@
+[
+    {
+      "title": "JobNexus",
+      "imageSrc": "projects/JobNexus.png",
+      "description": "Platform for connect JobSeeker & Employer",
+      "skills": ["React", "Express", "Node" ,"MongoDB"],
+      
+      "source": "https://github.com/ag-mayank/Job_Nexus"
+    },
+    {
+      "title": "Breast Cancer Detection",
+      "imageSrc": "projects/Breast.jpg",
+      "description": "Predict person is suffer from breast cancer or not",
+      "skills": ["Decision tree" , "Random Forest Tree" , "Linear Regression" , "Google Collab"],
+     
+      "source": "https://github.com/ag-mayank/Breast-Cancer-Detection"
+    },
+    {
+      "title": "Real Estate MarketPlace",
+      "imageSrc": "projects/Real Estate.PNG",
+      "description": "Platform in which you can sell or rent your property",
+      "skills": ["React", "Express", "Node","MongoDB"],
+      
+      "source": "https://github.com/ag-mayank/mern-estate"
+    }
+  ]

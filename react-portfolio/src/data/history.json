@@ -1,0 +1,30 @@
+[
+    {
+      "role": "Finalist HWI",
+      "organisation": "Infosys",
+      "startDate": "9 Aug,2024",
+      "endDate": "12 Aug 2024",
+      "experiences": ["Iris Detection (Media Pipe)", "Video Recommendation"],
+      "imageSrc": "history/Infosys.png"
+    },
+    {
+      "role": "Machine Learning Intern",
+      "organisation": "IBM",
+      "startDate": "June, 2024",
+      "endDate": "July, 2024",
+      "experiences": ["Create The ChatBot", "Work On AI Tools"],
+      "imageSrc": "history/IBM.png"
+    },
+    {
+      "role": "Finalist RP ",
+      "organisation": "Rajasthan Police",
+      "startDate": "Nov 2023",
+      "endDate": "Jan, 2024",
+      "experiences": [
+        "Improve 1930 Helpline",
+        "Integrate ChatBot ",
+        "Implement Using MERN Stack"
+      ],
+      "imageSrc": "history/Rajasthan.PNG"
+    }
+  ]
